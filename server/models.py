@@ -67,5 +67,3 @@ class Post(db.Model):
 
     def __repr__(self):
         return f'Post(id={self.id}, title="{self.title}", content="{self.content[:50]}...", summary="{self.summary[:50]}...")'
-
-

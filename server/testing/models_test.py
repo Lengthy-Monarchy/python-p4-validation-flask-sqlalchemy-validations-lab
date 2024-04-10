@@ -21,7 +21,7 @@ class TestAuthor:
 
             # missing name
             with pytest.raises(ValueError):
-                author2 = Author(name = '', phone_number = '1231144321')
+                author2 = Author(name = '', phone_number = '1231144300')
 
     def test_requires_unique_name(self):
         '''requires each record to have a unique name.'''
